@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Ready, Set, Draw
 //
 //  Created by student on 11/13/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class TicTacToeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

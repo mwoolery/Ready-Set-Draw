@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3F81812F1FBA61F500806413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81812E1FBA61F500806413 /* AppDelegate.swift */; };
-		3F8181311FBA61F500806413 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181301FBA61F500806413 /* FirstViewController.swift */; };
-		3F8181331FBA61F500806413 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181321FBA61F500806413 /* SecondViewController.swift */; };
+		3F8181311FBA61F500806413 /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181301FBA61F500806413 /* TicTacToeViewController.swift */; };
+		3F8181331FBA61F500806413 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181321FBA61F500806413 /* ClockViewController.swift */; };
 		3F8181361FBA61F500806413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8181341FBA61F500806413 /* Main.storyboard */; };
 		3F8181381FBA61F500806413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8181371FBA61F500806413 /* Assets.xcassets */; };
 		3F81813B1FBA61F500806413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8181391FBA61F500806413 /* LaunchScreen.storyboard */; };
 		3F8181461FBA61F500806413 /* Ready__Set__DrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181451FBA61F500806413 /* Ready__Set__DrawTests.swift */; };
 		3F8181511FBA61F500806413 /* Ready__Set__DrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181501FBA61F500806413 /* Ready__Set__DrawUITests.swift */; };
+		3F81815F1FBA634100806413 /* MondrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81815E1FBA634100806413 /* MondrainViewController.swift */; };
+		3F8181611FBA63BD00806413 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181601FBA63BD00806413 /* TicTacToeView.swift */; };
+		3F8181631FBA63D000806413 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181621FBA63D000806413 /* ClockView.swift */; };
+		3F8181651FBA63E200806413 /* MondrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8181641FBA63E200806413 /* MondrainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,8 @@
 /* Begin PBXFileReference section */
 		3F81812B1FBA61F500806413 /* Ready, Set, Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ready, Set, Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F81812E1FBA61F500806413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F8181301FBA61F500806413 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3F8181321FBA61F500806413 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F8181301FBA61F500806413 /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
+		3F8181321FBA61F500806413 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		3F8181351FBA61F500806413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F8181371FBA61F500806413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F81813A1FBA61F500806413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		3F81814C1FBA61F500806413 /* Ready, Set, DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ready, Set, DrawUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8181501FBA61F500806413 /* Ready__Set__DrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ready__Set__DrawUITests.swift; sourceTree = "<group>"; };
 		3F8181521FBA61F500806413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F81815E1FBA634100806413 /* MondrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondrainViewController.swift; sourceTree = "<group>"; };
+		3F8181601FBA63BD00806413 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
+		3F8181621FBA63D000806413 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		3F8181641FBA63E200806413 /* MondrainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondrainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				3F81812E1FBA61F500806413 /* AppDelegate.swift */,
-				3F8181301FBA61F500806413 /* FirstViewController.swift */,
-				3F8181321FBA61F500806413 /* SecondViewController.swift */,
+				3F8181301FBA61F500806413 /* TicTacToeViewController.swift */,
+				3F8181321FBA61F500806413 /* ClockViewController.swift */,
+				3F81815E1FBA634100806413 /* MondrainViewController.swift */,
 				3F8181341FBA61F500806413 /* Main.storyboard */,
+				3F8181601FBA63BD00806413 /* TicTacToeView.swift */,
+				3F8181621FBA63D000806413 /* ClockView.swift */,
+				3F8181641FBA63E200806413 /* MondrainView.swift */,
 				3F8181371FBA61F500806413 /* Assets.xcassets */,
 				3F8181391FBA61F500806413 /* LaunchScreen.storyboard */,
 				3F81813C1FBA61F500806413 /* Info.plist */,
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8181331FBA61F500806413 /* SecondViewController.swift in Sources */,
+				3F8181331FBA61F500806413 /* ClockViewController.swift in Sources */,
+				3F8181631FBA63D000806413 /* ClockView.swift in Sources */,
 				3F81812F1FBA61F500806413 /* AppDelegate.swift in Sources */,
-				3F8181311FBA61F500806413 /* FirstViewController.swift in Sources */,
+				3F8181651FBA63E200806413 /* MondrainView.swift in Sources */,
+				3F8181611FBA63BD00806413 /* TicTacToeView.swift in Sources */,
+				3F81815F1FBA634100806413 /* MondrainViewController.swift in Sources */,
+				3F8181311FBA61F500806413 /* TicTacToeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M5YW8FX46;
 				INFOPLIST_FILE = "Ready, Set, Draw/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Ready--Set--Draw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,7 +463,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M5YW8FX46;
 				INFOPLIST_FILE = "Ready, Set, Draw/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Ready--Set--Draw";
 				PRODUCT_NAME = "$(TARGET_NAME)";
