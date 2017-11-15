@@ -37,14 +37,7 @@ class ClockViewController: UIViewController, CAAnimationDelegate {
 
 
 // MARK: Retrieve time
-func ctime ()->(h:Int,m:Int,s:Int) {
-    
-    var t = time_t()
-    time(&t)
-    let x = localtime(&t) // returns UnsafeMutablePointer
-    
-    return (h:Int(x!.pointee.tm_hour),m:Int(x!.pointee.tm_min),s:Int(x!.pointee.tm_sec))
-}
+
 // END: Retrieve time
 
 // MARK: Calculate coordinates of time

@@ -15,10 +15,9 @@ class ClockView: UIView {
     override func draw(_ rect:CGRect)
         
     {
-        let date = Date()
-        let cal = Calendar.current
-        let hour = cal.component(.hour, from: date)
-        let min = cal.component(.minute, from: date)
+        
+        let hour = ctime().h
+        let min = ctime().m
         let clock = UIBezierPath()
         let size = self.frame.size
         let hourHand = UIBezierPath()
@@ -32,16 +31,24 @@ class ClockView: UIView {
         hourArc.addArc(withCenter: CGPoint(x:size.width/2.0, y: size.height/2.0), radius: size.width / 6.0, startAngle: 0.0, endAngle: hourAngle, clockwise: true)
         hourHand.move(to: hourArc.currentPoint)
         hourHand.addLine(to: CGPoint(x:size.width/2.0, y: size.height/2.0))
-        UIColor.blue.cgColor
+       
         hourHand.stroke()
         minArc.addArc(withCenter: CGPoint(x:size.width/2.0, y: size.height/2.0), radius: size.width / 4.0, startAngle: 0.0, endAngle: minAngle, clockwise: true)
         minHand.move(to: minArc.currentPoint)
         minHand.addLine(to: CGPoint(x:size.width/2.0, y: size.height/2.0))
-        UIColor.red.cgColor
+        
         minHand.stroke()
         
         
         
+    }
+    func ctime ()->(h:Int,m:Int,s:Int) {
+        
+        var t = time_t()
+        time(&t)
+        let x = localtime(&t) // returns UnsafeMutablePointer
+        
+        return (h:Int(x!.pointee.tm_hour),m:Int(x!.pointee.tm_min),s:Int(x!.pointee.tm_sec))
     }
     
 
