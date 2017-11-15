@@ -13,34 +13,40 @@ class MondrainViewController: UIViewController{
     @IBOutlet weak var numberOfRectanglesTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        if numberOfRectanglesTF == nil{
-            let alert = UIAlertController(title: "Enter a number",
-                                          message: "",
-                                          preferredStyle: .alert)
-            
-            let cancel = UIAlertAction(title: "Cancel", style: .destructive, handler: { (action) -> Void in })
-            
-            
-            alert.addAction(cancel)
-            if Int(numberOfRectanglesTF.text!) == nil{
-                present(alert, animated: true, completion: nil)
-            }
-        }
-        else{
-            //var newView:UIView = MondrainView()
-            
-            //(self,Int(numberOfRectanglesTF.text!)!)
-            //MondrainView.draw
-        }
+ 
         
         
         
     }
+  
     override func viewWillAppear(_ animated: Bool) {
         
     }
 
     @IBAction func drawRectanglesBTN(_ sender: Any) {
+        if numberOfRectanglesTF == nil{
+//            let alert = UIAlertController(title: "Enter a number",
+//                                          message: "",
+//                                          preferredStyle: .alert)
+//
+//            let cancel = UIAlertAction(title: "Cancel", style: .destructive, handler: { (action) -> Void in })
+//
+//
+//            alert.addAction(cancel)
+//            if Int(numberOfRectanglesTF.text!) == nil{
+//                present(alert, animated: true, completion: nil)
+//            }
+        }
+        else{
+            let newView:MondrainView = MondrainView()
+            
+            //newView.setNumberOfRects(num: Int(numberOfRectanglesTF.text!)!)
+            newView.draw(CGRect(x:50,y:50, width:150,height:150))
+            
+            //(self,Int(numberOfRectanglesTF.text!)!)
+            //MondrainView.draw
+        }
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

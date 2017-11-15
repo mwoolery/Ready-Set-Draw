@@ -14,7 +14,13 @@ import UIKit
 @IBDesignable
 class MondrainView: UIView {
 
-   
+    
+    
+    func setNumberOfRects(num:Int) -> Int{
+        let numberOfRects = num
+        return numberOfRects
+    }
+  
     override func draw(_ rect: CGRect) {
         
         //let frame:UIBezierPath = UIBezierPath(rect:CGRect(x: 50, y: 50, width: 150, height: 150))

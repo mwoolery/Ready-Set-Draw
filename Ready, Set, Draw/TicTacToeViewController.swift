@@ -21,9 +21,9 @@ class TicTacToeViewController: UIViewController {
 //    @IBOutlet weak var BL_LBL: UILabel!
 //    @IBOutlet weak var BC_LBL: UILabel!
 //    @IBOutlet weak var BR_LBL: UILabel!
-    
-    @IBOutlet weak var tripletTF: UITextField!
-    
+//    
+//    @IBOutlet weak var tripletTF: UITextField!
+//    
     
     @IBAction func PlayTurnBTN(_ sender: Any) {
 //        let turn = tripletTF.text
