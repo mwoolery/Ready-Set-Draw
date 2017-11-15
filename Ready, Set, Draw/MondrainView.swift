@@ -17,10 +17,10 @@ class MondrainView: UIView {
    
     override func draw(_ rect: CGRect) {
         
-        let frame:UIBezierPath = UIBezierPath(rect:CGRect(x: 50, y: 50, width: 150, height: 150))
-        drawRectangles(numberOfRects: 100)
-        UIColor.black.set()
-        frame.stroke()
+        //let frame:UIBezierPath = UIBezierPath(rect:CGRect(x: 50, y: 50, width: 150, height: 150))
+        drawRectangles(numberOfRects: 30)
+        //UIColor.black.set()
+      //  frame.stroke()
         
        
         
@@ -35,7 +35,7 @@ class MondrainView: UIView {
         for _ in 0...numberOfRects{
             fillOrStroke = Int(arc4random_uniform(2) + 0)
             print(fillOrStroke)
-            let myrectangle = UIBezierPath(rect: CGRect(x:  50, y:  50, width:  Int(arc4random_uniform(150)+1), height:  Int(arc4random_uniform(150)+1)))
+            let myrectangle = UIBezierPath(rect: CGRect(x:  Int(arc4random_uniform(150)+1), y:  Int(arc4random_uniform(150)+1), width:  Int(arc4random_uniform(70)+1), height:  Int(arc4random_uniform(70)+1)))
             
             
             
