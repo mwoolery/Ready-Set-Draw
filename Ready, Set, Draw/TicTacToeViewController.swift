@@ -10,66 +10,60 @@ import UIKit
 
 class TicTacToeViewController: UIViewController {
 
-//    @IBOutlet weak var TL_LBL: UILabel!
-//    @IBOutlet weak var TC_LBL: UILabel!
-//    @IBOutlet weak var TR_LBL: UILabel!
-//
-//    @IBOutlet weak var CL_LBL: UILabel!
-//    @IBOutlet weak var CC_LBL: UILabel!
-//    @IBOutlet weak var CR_LBL: UILabel!
-//
-//    @IBOutlet weak var BL_LBL: UILabel!
-//    @IBOutlet weak var BC_LBL: UILabel!
-//    @IBOutlet weak var BR_LBL: UILabel!
-//    
-//    @IBOutlet weak var tripletTF: UITextField!
-//    
+
     
-    @IBAction func PlayTurnBTN(_ sender: Any) {
-//        let turn = tripletTF.text
-//        let play = splitter(turn!)
-//        for p in play {
-//            switch p{
-//            case "00X": TL_LBL.text = "X"
-//            case "00O": TL_LBL.text = "O"
-//                
-//            case "01X": TC_LBL.text = "X"
-//            case "01O": TC_LBL.text = "O"
-//                
-//            case "02X": TR_LBL.text = "X"
-//            case "02O": TR_LBL.text = "O"
-//                
-//            case "10X": CL_LBL.text = "X"
-//            case "10O": CL_LBL.text = "O"
-//                
-//            case "11X": CC_LBL.text = "X"
-//            case "11O": CC_LBL.text = "O"
-//                
-//            case "12X": CR_LBL.text = "X"
-//            case "12O": CR_LBL.text = "O"
-//                
-//            case "10X": BL_LBL.text = "X"
-//            case "10O": BL_LBL.text = "O"
-//                
-//            case "11X": BC_LBL.text = "X"
-//            case "11O": BC_LBL.text = "O"
-//                
-//            case "12X": BR_LBL.text = "X"
-//            case "12O": BR_LBL.text = "O"
-//                
-//                
-//            default:
-//                print("does't work")
-//            }
-//        }
-        
-    }
+ //   @IBOutlet weak var tripletsTF: UITextField!
+//    @IBAction func PlayTurnBTN(_ sender: Any) {
+////
+////        let turn = tripletsTF.text
+////        let play = splitter(turn!)
+////        for p in play {
+////            switch p{
+////            case "00X": print()
+////            case "00O":print()
+////
+////            case "01X":print()
+////            case "01O":print()
+////
+////            case "02X":print()
+////            case "02O":print()
+////
+////            case "10X":print()
+////            case "10O":print()
+////
+////            case "11X":print()
+////            case "11O":print()
+////
+////            case "12X":print()
+////            case "12O":print()
+////
+////            case "10X":print()
+////            case "10O":print()
+////
+////            case "11X":print()
+////            case "11O":print()
+////
+////            case "12X":print()
+////            case "12O":print()
+////
+////
+////            default:
+////                print("does't work")
+////            }
+////        }
+//        
+//    }
+//    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     
+        
+//        let newView = TicTacToeView(frame: CGRect(origin: CGPoint(x:0,y:0), size: CGSize(width: 375, height: 434)))
+//        newView.checkVal = "00X"
+//        newView.draw(CGRect(x:0,y:0, width: 375, height: 434))
+//   
         
         
     }
@@ -88,12 +82,6 @@ class TicTacToeViewController: UIViewController {
         return answer
     }
 
-    func secondSplitter(_ datastr: String) -> [Character]
-    {
-        var answer:[Character] = []
-        answer = [Character](datastr.characters)
-        return answer
-    }
 
 }
 
