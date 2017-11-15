@@ -27,7 +27,7 @@ class MondrainViewController: UIViewController{
             }
         }
         else{
-            var newView:UIView = MondrainView()
+            //var newView:UIView = MondrainView()
             
             //(self,Int(numberOfRectanglesTF.text!)!)
             //MondrainView.draw
