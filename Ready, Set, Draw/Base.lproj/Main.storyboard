@@ -13,7 +13,6 @@
         <!--TicTacToeViewController-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
                 <viewController id="9pv-A4-QxB" userLabel="TicTacToeViewController" customClass="TicTacToeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -30,6 +29,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="TicTacToe" image="first" id="acW-dT-cKf" userLabel="TicTacToe"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="768.79999999999995" y="-319.79010494752629"/>
         </scene>
